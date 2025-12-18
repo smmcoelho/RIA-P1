@@ -18,7 +18,7 @@ if __name__ == '__main__':
     l = [1, 10, 20, 15, 3]
     result = encontrarMaior(l)
     expected = 20
-    assert result == expected, f"test 4 - Resultado errado {result} != {expected}"
+    assert result == expected, f"test 1 - Resultado errado {result} != {expected}"
 
     # test 2
     l = [-1, -10, -20, -15, -3]

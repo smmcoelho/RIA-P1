@@ -16,3 +16,9 @@ if __name__ == '__main__':
     result = conta_vogais_diferentes(l)
     expected = 3
     assert result == expected, f"test 2 - Resultado errado {result} != {expected}"
+
+    # test 3
+    l = "OLA SENHORA"
+    result = conta_vogais_diferentes(l)
+    expected = 3
+    assert result == expected, f"test 3 - Resultado errado {result} != {expected}"
